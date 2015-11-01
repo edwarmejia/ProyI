@@ -24,6 +24,6 @@ public class DataBaseSqlLite  extends SQLiteOpenHelper{
 
     @Override
     public void onUpgrade(SQLiteDatabase db, int oldVersion, int newVersion) {
-        db.execSQL("CREATE TABLE posts(id INTEGER PRIMARY KEY AUTOINCREMENT,user TEXT,title TEXT,content TEXT);");
+
     }
 }

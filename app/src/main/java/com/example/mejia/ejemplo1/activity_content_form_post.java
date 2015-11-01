@@ -26,7 +26,7 @@ public class activity_content_form_post extends AppCompatActivity {
           @Override
           public void onClick(View v) {
               //guardar en base de datos
-              DataBaseSqlLite helper = new DataBaseSqlLite(getApplicationContext(),"android",null,1);
+              DataBaseSqlLite helper = new DataBaseSqlLite(getApplicationContext(),"android1",null,1);
 
               SQLiteDatabase database=helper.getWritableDatabase();
 

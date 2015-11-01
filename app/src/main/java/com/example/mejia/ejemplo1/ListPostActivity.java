@@ -48,7 +48,7 @@ public class ListPostActivity extends AppCompatActivity {
     private List<Post> GetsPost(){
 
         List<Post> posts = new ArrayList<>();
-        DataBaseSqlLite helper = new DataBaseSqlLite(this,"android",null,1);
+        DataBaseSqlLite helper = new DataBaseSqlLite(this,"android1",null,1);
         SQLiteDatabase db=helper.getWritableDatabase();
 
         Cursor c = db.rawQuery("SELECT * from posts;", null);

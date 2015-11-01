@@ -20,29 +20,6 @@
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="USUARIO ==>"
-                android:id="@+id/textView4"
-                android:layout_marginTop="20dp" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
-                android:text="TITULO==>"
-                android:id="@+id/textView5"
-                android:layout_gravity="center_horizontal"
-                android:layout_marginTop="20dp" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="vertical"
-            android:layout_width="wrap_content"
-            android:layout_height="match_parent">
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:textAppearance="?android:attr/textAppearanceLarge"
                 android:text=":"
                 android:id="@+id/txtRecibeUser"
                 android:layout_marginTop="20dp"
@@ -56,6 +33,29 @@
                 android:id="@+id/txtRecibeTitulo"
                 android:layout_marginTop="20dp"
                 android:hint="titulo" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="USUARIO ==>"
+                android:id="@+id/textView4"
+                android:layout_marginTop="20dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textAppearance="?android:attr/textAppearanceLarge"
+                android:text="TITULO==>"
+                android:id="@+id/textView5"
+                android:layout_gravity="center_horizontal"
+                android:layout_marginTop="20dp" />
         </LinearLayout>
     </LinearLayout>
 

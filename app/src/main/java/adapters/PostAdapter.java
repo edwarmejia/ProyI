@@ -38,7 +38,7 @@ public class PostAdapter extends ArrayAdapter<Post> {
         //ids.setText(post.id);
 
         TextView title=((TextView) convertView.findViewById(R.id.titletxt));
-        title.setText(post.title);// +"...."+ String.valueOf(post.id));
+        title.setText(post.title +"...."+ String.valueOf(post.id));
 
 
         return  convertView;
